@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <!--Forma larga de hacer un calendario-->
+    <form action="">
+        <label for="hora">
+            <span>Hora</span>
+            <input type="time" id="hora" name="hora">  
+        </label>
+        <label for="dia">
+            <span>Día</span>
+            <input type="date" id="dia" name="dia"><!--El atributo sera para mandar la informacion y es llamara igual que el for e id-->  
+        </label>
+        <label for="semana">
+            <span>Semana</span>
+            <input type="week" id="semana" name="semana"><!--El atributo sera para mandar la informacion y es llamara igual que el for e id-->  
+        </label>
+        <label for="mes">
+            <span>Mes</span>
+            <input type="month" id="mes" name="mes"><!--El atributo sera para mandar la informacion y es llamara igual que el for e id-->              
+        </label>
+        <input type="submit"> <!--El submit sera para el boton enviar-->
+    </form>
+    <!--Esta es una forma mas sencilla de hacer un calendario mas completo en el que se preguntan 
+    4 cosas en un solo input ahorrandono todo el codigop pasado-->
+    <form action="">
+        <label for="calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="calendario" name="calendario"><!--El tipo datetime-local es para indicar que quiero la fechat y hora local -->
+            <input type="submit">
+        </label>
+    </form>
+</body>
+</html>

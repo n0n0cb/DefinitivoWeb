@@ -1,0 +1,62 @@
+<!--singo de admiracion (! )y tabulador para hacerlo automatico -->
+<!DOCTYPE html> <!--El doctype permite saber que manejaremos html-5-->  
+<html lang="es"> <!--EL html se asbre y se cierra al inicio y el Lang le dice al navegador cual es el lenguaje del proyecto -->
+<!--Hay etiquetas que se abren y se cierran solas como el doctype y otras manuales como el head y body-->
+
+<!--En la etiqueta del head ira todo lo importante para que el navegador cargue el proyecto
+pero que no es visual para el usuario final como dependencias librerias fuentes externas etc-->
+    <head> <!--Es importante tabular para mejor lectura -->
+      <meta charset="UTF-8"> <!--le dara cierta imfo al navegador para que sepa como tratar el proyecto. El charset UITF-8 ayuda al navegador a entender caracteres especiales como la ñ o tildes/acentos-->
+      <meta name="description" content="Esta pagina te mostrara fotos de gatitos uwu"> <!-- Esta etiqueta es importante ya que sera la descripcion que saldra debajo de el nombre de la pagina al momento que el usuario realiza la busqueda -->
+      <meta name="robots" content="index,follow"><!--hay robots encargados de posicionar las paginas al momento de que el usuario realiza la busqueda; con esta etiqueta autorizamos a los robots de los diferentes navegadores a que nos ayude a posicionar nuestra pagina con relacion a la busqueda que se hace
+       Y la forma en la que autorizamos al robot es con la etiqueta content="index,follow" -->
+      <!--El tittle sera la etiqueta encargada del titulo que aparecera en la ventana del navegador al momento de abrir la pagina -->
+      <title>Pagina de gatos ugu</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Esta etiqueta es la encargada de decirle al navegador que nuestra pagina sera responsive para mejorar la experiencia del usuario. El viewport significa el tamaño de la pantalla, toda completa de derecha a izquierda  -->
+      <!--El link es una etiqueta para agregar el CSS anexando todos los estilos siendo muy importante-->
+      <link rel="stylesheet" href="./CSS/style.css"><!--El rel le indica que el documento que cargara sera una hoja de estilos y el href que sera la referencia o donde se encuentra ese documento -->
+      </head> 
+
+<!--dentro del body esta lo que el usuario vera como textos imagenes 
+videos y cosas interactivas para el ususario-->    
+    <body>
+      <!--Etiquetas de contenido y etiquetas contenedoras
+      Las contenedoras llevaran mas etiquetas adentro y ayudaran a estructurar la pagina
+      y las de contenido son las que llevaran el texto, imagenes videos etc -->  
+      
+      <!--(*) CONTENEDORAS,  (+)CONTENIDO-->
+      <!--*--><header><!--Etiqueta para definir el encabezado de la pagina -->
+        <nav></nav><!--Si este header llevara una barra de navegacion se utiliza el nav-->
+      </header>
+
+      <!--*--><main><!--Para trabajar la parte princiapl se utilizala etiqueta main que ira despues del encabezado-->
+        <!--Dentro del main podran haber secciones y dentro de estas diversos articulos -->
+        <section>
+            <article>
+
+            </article>
+        </section>
+
+        <!--En caso de querer crear kiistas se usaran las etiquetas ul y ol-->
+        <!--+--><ul><!--Lista desordenada unordered(puntos)-->
+            <li>gato :c</li><!--Para poner contenido dentro de la lista se usa la etiqeuta li-->   
+        </ul>    
+        <!--+--><ol><!--Lista ordenada ordered(Numerada)-->
+            <li>gato c:</li><!--Para poner contenido dentro de la lista se usa la etiqeuta li-->
+        </ol>
+      </main>
+
+      <!--*--><footer><!--Sera el pie de pagina lo ultima parte de la estructura-->
+        <!--+--><p>Soy un texto dentro de un parrafo</p> <!--La etiqueta p se usa para declarar parrafos y llenarlos de texto-->
+        <!--+--><h1>Soy un titulo</h1><!--Se usa para los titulos y hay hasta h6 para variar el tamaño del titulo-->
+        <!--+--><a href="#">Soy un link</a><!--La etiqueta a(ancla) href se usa para generar hipervinculos (links) #para que la pagina no refresque-->
+      </footer>
+
+      <!--El div tambiuen es una etiquert aestructuradora pero esta relacionada a malas practicas
+      haciendo toda la maquetacion solo con divs en ves de usar el headermainfooter osea html5 semantico
+      por lo que puede ser un etiqueta comodin  -->
+      <!--*--><div>
+
+      </div>
+    </body>
+</html>

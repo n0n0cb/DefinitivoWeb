@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;/*.3 rem es igual a 3 pixeles ya que un rem son 10px*/
+    display: flex;/*esta propiedad hace que los contenedores sean mucho mas flexibles po rlo que en este ejemplo todos quedan seguidos sin necesidad del inlineblock*/
+    align-items: center;/*alinea los contenedores en todo el centro (aunque no los separa de la izquierda) si quiero poner los contenedores arriba usare el (alignitem: flex-start) y al final flex-end
+    si quisiera estirar los contenedores usare el texty-align:stretch el cual ira hasta el 100% del contenedor padre. Si quiera hacer lo contrario debo usar el baseline para encogerlo al tamaño de su contenido 
+    en este caso el tamaño de la frase*/
+    height: 50vh;/*este par agrandar la altura del contenedor */
+
+}
+.box{
+    /*aca se limitara el crecimiento de los contenedores*/
+    width: 10rem;
+    height: 10rem;
+}
+/*el order indica en que orden deseo que se muestren los contenedores
+pero si no le establezco un order a cada contenedor este automaticamente se ira a la izquierda y ya luego 
+acomodara los que siguen incluso si estan con order*/
+.box1{
+    background-color: blue;
+    order: 1;
+}
+.box2{
+    background-color: blueviolet;
+    order: 3;
+}
+.box3{
+    background-color: burlywood;
+    flex-grow: 1;/*El flexgrow hara que el contenedoer crezca lo indicado como para rellenar el vacio que queda de los contenedores al final*/
+}
+.box4{
+    background-color: cadetblue;
+    flex-grow: 2;
+}
+.box5{      
+    background-color: coral;
+    order: 4;
+}
+.box6{
+    background-color: salmon;
+    order: 2;
+}

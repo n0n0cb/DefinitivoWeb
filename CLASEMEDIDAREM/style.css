@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /* truco común en CSS que ajusta el tamaño de fuente del elemento html para facilitar el cálculo de tamaños de fuente relativos utilizando la unidad rem.
+    Cuando se establece el tamaño de fuente del elemento html en un 62.5%, esto significa que el navegador interpretará 1rem como el 62.5% del tamaño de fuente predeterminado del navegador, que suele ser 16px.
+    Por lo tanto, 1rem será igual a 10px (62.5% de 16px).*/
+}
+p{
+    font-size: 1.6rem;/*1 rem referencia el tamaño de fuente que tiene la etiqueta html por lo que sera igual a 16 px a diferencia de em que dependera de la dimension demarcada en su padre directo la cual puede ser diferente
+    una vez demarcado el html como 62.5 cada rem equivale a 10px por lor que si queremos 16px seran 1.6rem*/
+}
+main div{
+    font-size: 1.6rem;
+}

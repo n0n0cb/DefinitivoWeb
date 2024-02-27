@@ -1,0 +1,14 @@
+p{
+    color: blue; /*la etiqueta color se usa para poner o cambiar colores xd*/
+    font-size: 40px;/*La etiquea fontsize defin eel tamaño de la letra*/
+}
+/*class (en este caso se llama la clase para editarla con un punto al inicio*/
+.parrafo{
+    color: red;
+}
+
+/* ID (igual que con la clase nomoas que con id */
+#texto{
+    color: green;
+    font-size: 24px;
+}

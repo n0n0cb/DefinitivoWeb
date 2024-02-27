@@ -1,0 +1,29 @@
+.main-nav{
+   margin-top: 10px; /*Estbalece un aimagen alrededor del bloque seleccionado */
+   list-style: none; /*Quitar los bullets (puntos) a la lista desordenada*/
+   padding-left: 0px; /*El padding es un espacio interno en el contenedor*/
+   background-color: #13a4a4; /*Agregar color de fondo*/
+}
+.main-nav__item{
+   display: inline-block; /*Etiqueta usada para que la lista me salga horizontal*/
+}
+.main-nav__item a{ /*Especificidad, quiero cambiar los diseños de la letra. Esta es la forma correcta*/
+   color: white; 
+   padding: 5px;
+   border-radius: 2px; /*etiqueta para redondear esquinas */
+   text-decoration: none;
+}
+/*PSEUDOCLASES (:)*/
+.main-nav__item a:hover{ /*hover es que el texto cambie cuando se le pasa el cursor encima */
+   color:blue
+}
+.main-nav__item a:active{
+    color: red;/*El activer hacew que al momento de dar click se cree un evento el cual cambia de color el texto*/
+}
+/*PSEUDOELEMENTOS (::)*/
+.main-nav__item a::after{ /*Despues del elemento que te ihdico agrega el contenido/caracter */
+    content: " | ";
+}
+/*DIFERENCIA ENTRE CLASE Y PSEUDOCLASE
+PSEUDOCLASE :class define el estilo de un estado especial del elemento
+PSEUDOELEMENTO :element define el estilo de una parte especifica del elemento */

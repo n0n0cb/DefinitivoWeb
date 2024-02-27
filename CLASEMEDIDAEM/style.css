@@ -1,0 +1,8 @@
+/*Segun rem no es muy usado pero es bueno conocerla*/
+body{
+    font-size: 20px;
+}/*En este caso establecemos el font size del body pór lo cual el em cambia de 16 a 20 y el calculo cambiaria */
+.text-container{
+    font-size: 1.5em;/*1 em sera la cantidad depixeles establecidos en el htl o por el navegador en defecto si le indicamos que la fuente sera de 1.5 em significa que como
+    no establecimos tamaño de fuente tomara el del nacegador por defecto en este caso 16px por lo que 1.5em seran 16y medio osea 16+8= 24px*/
+}

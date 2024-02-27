@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+main{
+    width: 100; /*El width nos ayuda a indicar que tan grande o larga sera nuestra etiqueta*/
+    height: 500; /*El height indicara que tan alta quiero que sea esta etiqueta*/
+    border: 10px solid grey; /*En este caso llamamos al border y lo hacemos visible con el solid y le ponemos color con el grey*/
+    padding: 20px 35px; /*El padding es un espacio relleno un espacio hacia adentro y seran 20px de arriba hacia abajo y 35px de derecha a izquierda */
+    /*En caso de querer aplicar el padding a un lugar especifico le indico padding-left o right o border/top*/
+}

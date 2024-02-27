@@ -1,0 +1,10 @@
+/*COMBINADOR HIJO
+colorea todos los hijos directos p de div */
+div > p{
+    color:red;
+}
+/*COMBINADOR DESCENDIENTE
+a todas las etiquetas parrafo dentro del div colorealas*/
+div p{
+    color: red;
+}

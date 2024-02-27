@@ -1,0 +1,10 @@
+/*HERMANO ADYACENTE
+quiero que me coloque el color en rojo de todas las etiquetas p cercanas
+a una etiqueta h2*/
+h2 + p{
+  color: red;  
+}
+/*La razón por la cual la etiqueta p después del h3 no se pone roja, a pesar de estar 
+encima de un h2, es porque el selector h2 + p se aplica solo a las etiquetas p que son hermanas inmediatas 
+(hermanos adyacentes) de h2. En otras palabras, solo afectará a la primera etiqueta p que sigue inmediatamente a un h2, no a todas
+ las etiquetas p que estén después de cualquier h2.*/

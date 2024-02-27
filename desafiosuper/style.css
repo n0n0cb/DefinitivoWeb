@@ -1,0 +1,27 @@
+.img1 {
+    width: 200px; /* Puedes ajustar el valor de cuan ancho lo deseas según tus necesidades */
+    height: 200px; /* Puedes ajustar el valor de cuan alto lo deseas según tus necesidades */
+}
+.img2 {
+    width: 200px; /* Puedes ajustar el valor según tus necesidades */
+    height: 150px; /* Puedes ajustar el valor según tus necesidades */
+}
+.img3 {
+    width: 200px; /* Puedes ajustar el valor según tus necesidades */
+    height: 150px; /* Puedes ajustar el valor según tus necesidades */
+}
+#item1{
+    color: green;
+    font-size: 24px;
+    }
+    #item2{
+    color: green;
+    font-size: 24px;
+}
+#item3{
+    color: green;
+    font-size: 24px;
+}
+li{
+    color: brown;
+}

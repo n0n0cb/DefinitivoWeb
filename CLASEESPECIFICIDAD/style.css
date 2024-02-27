@@ -1,0 +1,40 @@
+*{ /*para evitar obligar al usuario a hacer Scroll horizontal. 
+    El siguiente dodigo con el selector universal se usa por fronts pros para hacer un reset o normalizar
+    y se utilizan para establecer un punto de partida consistente y predecible en el diseño de la página, asegurándose de que todos los elementos se comporten de manera más uniforme en diferentes navegadores */
+    box-sizing: border-box;
+    margin: 0;/*Ambas líneas establecen que el margen exterior y el espacio de relleno (padding) de todos los elementos deberían ser cero. Esto se hace para evitar que los navegadores agreguen automáticamente márgenes o rellenos predeterminados que podrían afectar el diseño de la página*/
+    padding: 0; 
+}
+h1{
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;  
+}
+#page-title{ /*El id se llama mediante el numeral*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{/*Las clases se mandan a llamar con el punto*/
+    font-size: 18px;
+    font-family: monospace; /*En este ejemplo al tratar de cambiar la fuente no se aplica puestro que ya se esta ejecutando un id con la misma orden el cual tiene mas importancia */
+}
+#main.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav li{
+    display: inline-block;
+}
+#main-nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;/*linea debajo del nombre*/ 
+}
+/*Como podria cambiar el color de fondo de una sola etiqueta a y no de todas?*/
+/*Creando una clase dentro de la etiqueta a con un nombre similar
+<li><a href="" class="blog">Blog</a></li>*/
+#main-nav .blog{
+    background-color: red;
+}

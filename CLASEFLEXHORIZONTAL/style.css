@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;/*.3 rem es igual a 3 pixeles ya que un rem son 10px*/
+    display: flex;/*esta propiedad hace que los contenedores sean mucho mas flexibles po rlo que en este ejemplo todos quedan seguidos sin necesidad del inlineblock*/
+    flex-wrap: wrap;/*ayuda a que se evite el desplazamiento lateral de la pantalla haciendo que los elementos se acomoden uno abajo de otro*/
+    justify-content: center;/*acomoda los elementos en el centro creando un espacio a los laterales el cual siempre se mantendra, tambien lo puede alinear hacia la izquierda(start) y derecha(end) 
+     contenedores divididos con un espacio parecido pero no exacto entre ellos con (space arround) y con un espacio exacto entre ellos con (space evenly)*/
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{      
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
+}

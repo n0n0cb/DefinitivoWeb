@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!--Para realizar formularios con buena semantica y practicas se debe usar la etiqueta form en lugar de divs con inputs-->
+    <form action=""><!-- especifica la URL a la que se enviarán los datos del formulario cuando se envíe, indica el destino del formulario; si este esta vacio se envia a la misma url -->
+        <label for="nombre"><!--La etiqueta label se utiliza para que el el usuario pueda dar click en el span y este lo lleve al input. Es bueno dejar un label para cada input porbuenas pracicas, accesibilidad y organizacion--><!--El for del label se usa para establecer una asociacion entre la etiqueta y el control (click al span)-->
+            <span>¡Cual es tu nombre?</span><!--El span sera la etiqueta indicada para poner el texto al lado del input -->
+            <input type="text" id="nombre" placeholder="Tu nombre"><!--El input sera el espacio para que el usuario ingrese la informacion requerida, el tipo (type="text") de esta puede variar de acuerdo a lo necesitado--><!--El place holder se usa para poner un ejemplo dentro del input -->
+            <!--El id del input sera siempre el mismo del for del label esto para que se relacionen directamente y cuando el usuario de click en e llabel (span) lo lleve directamente al input -->
+        </label>
+        <label for="inicioPlatzi">  
+            <span>¡Que día comenzaste en platzi?</span><!--El span sera la etiqueta indicada para poner el texto al lado del input -->
+            <input type="date" id="inicioPlatzi" > <!--El input sera el espacio para que el usuario ingrese la informacion requerida, el tipo (type="text") de esta puede variar de acuerdo a lo necesitado-->
+        </label>
+        <label for="horario">
+            <span>¡En que hoario estudias?</span><!--El span sera la etiqueta indicada para poner el texto al lado del input -->
+            <input type="time" id="horario"> <!--El input sera el espacio para que el usuario ingrese la informacion requerida, el tipo (type="text") de esta puede variar de acuerdo a lo necesitado-->            
+        </label>
+    </form>
+</body>
+</html> 

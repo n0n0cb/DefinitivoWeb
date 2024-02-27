@@ -1,0 +1,16 @@
+/*ABSOLUTA Y RELATIVA*/
+main{
+    background-color: red;
+    width: 100%; /*Le decimos que un ancho del 100% para que cuando se estire o encoja siempre cubra la pantalla, muy didferente si solo le pusieramos 
+    600px ya que cubriria un espacio definidos siempre y de ser mas chica la pantalla habra scroll y surgira overflow lo cuial no es buena practica*/
+    height: 500px;
+}
+/*MEDIDA ABSOLUTA PX (px)*/
+.absoluta{
+    font-size: 16px;/*Sin importar el tamaño de la pantalla el p siempre sera de 18px*/
+}       
+/*MEDIDA RELATIVA PROCENTAJE(%)*/           
+.relativa{
+    font-size: 50%;/*En este caso sera de 9px debido a que por herencia establece el 50%del elemento padre declarado anteriormente osea el p de la clase absoluto
+    si no se hiciera por herencia se mostraria al 50% de la fuente declarada por el navegador*/
+}

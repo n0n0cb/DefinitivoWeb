@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+  <main>
+    <!--Select rapido con opciones-->
+    <select name="cursos" id=""><!-- La etiqueta select permite crear la lista, con las etiquetas <option>:-->
+        <option value="JavaScript">JavaScript</option><!--El value es el mismo que el nombre ya que el value sera lo que se enviara al servidor-->
+        <option value="HTML5">HTML5</option>
+        <option value="CSS3">CSS3</option>
+        <option value="Web Standard">Web Standards</option>
+    </select>
+    <!--Select rapido con opciones y mejores practicas como el buscador -->
+    <!--la etiqueta input list se puede utilizar una etiqueta <datalist> con etiquetas <option> dentro del input
+    De este modo, el usuario puede escribir dentro del input, y filtrar los resultados de la lista ademas que no habra neceidad de nombrar cada valor-->
+    <input list="cursos">
+    <datalist id="cursos">
+        <option value="JavaScript"> </option>
+        <option value="HTML5"> </option>
+        <option value="CSS3"> </option>
+        <option value="Web Standard"> </option>
+    </datalist>
+  </main>  
+</body>
+</html>

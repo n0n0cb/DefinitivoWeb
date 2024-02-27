@@ -1,0 +1,5 @@
+/*COMBINADOR GENERAL
+seria como decir que todas las etiquetas p despues de un h2 se pintaran*/
+h2 ~ p{
+    color: red;
+}

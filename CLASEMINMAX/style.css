@@ -1,0 +1,19 @@
+*{ /*Buenas practicas*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{ /*Esto hara que el contenedor de main este ocupando el 100% del viewport en el ancho y alto*/
+    /*los viewports se usan para que la pnatalla ocupe el espacio indicado en este caso ocupara el 100%*/
+    width: 100vw;/*viewport width*/
+    height: 100vh;/*viewport height*/
+    background-color: purple;
+}
+section{
+    width: 80%;
+    min-width: 320px;/*define el ancho minimo osea que el elemento no se encojera mas alla del valor indicado sin importar el valor de la pantalla o el contenedor*/
+    max-width: 500px;/*define el ancho maximo osea qu el elemento no crecera mas alla de ese valor indicado incluso sin la pantalla o el contenedor lo permite*/
+    min-height: 500px;/*define la altura minima lo cual es una buena practica y en caso de superar el tamaño la altura se ajusta automaticamente*/
+    margin: 0 auto;/*0 auto significa que debe agregar el margen ajustado automaticamente de derecha izquierda para que quede centrado pero no de arriba a abajo*/
+    background-color: red;
+}
